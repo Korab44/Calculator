@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    background-color: khaki;
+}
+button {
+    padding: 20px;
+}
+.previous-operand {
+    min-height: 30px;
+    background-color: grey;
+    text-align: end;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px;
+}
+.current-operand {
+   background-color: grey;
+   min-height: 30px;
+   word-wrap: break-word;
+   word-break: break-all;
+   text-align: end;
+   font-size: large;
+   font-weight: bolder;
+   padding: 10px;
+   
+}
+.screen {
+    border: solid rgb(75, 72, 72);
+    border-radius: 10px;
+}
+.first {
+    display: flex;
+    justify-content: space-between; 
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+}
+.third {
+    display: flex;
+    justify-content: space-between;
+}
+.fourth {
+    display: flex;
+    justify-content: space-between;
+}
+.number {
+    width: 100px;
+    height: 50px;
+}
+.operator {
+    width: 100px;
+    height: 50px;
+}
+.button {
+    width: 100px;
+    height: 50px;
+}
+.equal {
+    width: 100px;
+    height: 50px;
+}
+
+button {
+    font-size: larger;
+    font-weight: bolder;
+    transition-duration: 0.2s;
+}
+button:hover {
+    background-color:lightsalmon;
+    color: white;
+  }
